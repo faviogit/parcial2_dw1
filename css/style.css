@@ -1,0 +1,26 @@
+.header{
+    background-color:white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+}       
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container-contador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    min-width: 40%;
+}
+
+.contador-value{
+    font-size: 45px;
+    font-weight: bold;
+    color: #df0a3f;
+}
